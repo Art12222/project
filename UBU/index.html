@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Uebsite per Bimet sipas Ujitjes (UBU)</title>
+<style>
+    .dritare {
+        background-color:#f999b7;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif; 
+            }
+			
+    section, {
+        margin: 12%;
+            }
+			
+    header {
+        color: black;
+        padding: 15px;
+            }
+			
+    #ballina {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #fee3ec;
+            }               
+   
+    nav ul {
+        background-color: #FFC4E1;
+        text-align: center;
+        margin: 0;
+             }
+			 
+    nav li {
+        margin-right: 12%;
+        margin-left: 10%; 
+        display: inline-block;
+            }
+			
+    nav a {
+        color: black;
+        width: 100px;
+        display: block;
+        font-size: 20px;
+        padding: 25px 20px;
+        text-align: center;
+             }
+
+    li a:hover {
+        background-color: #f2789f;
+             }
+			 
+    * {
+		margin: 0;
+		padding: 0;
+		}
+		
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        }
+
+    td {
+        padding: 10px;
+        vertical-align: top;
+        }
+
+       
+    img {
+        width:70%;
+		height:60%;
+        }
+
+    #kontakti {
+        background-color: #f999b7;
+        margin-top: 0%;
+        color: black;
+            }
+			
+    footer {
+		background-color: #fee3ec;
+        padding: 1%;
+        text-align: center;
+        color: black;
+            }
+	
+			
+</style>
+</head>
+<body>
+    <div class="dritare">
+        <header id="ballina">
+			<h1>Uebsite per Bimet sipas Ujitjes (UBU)</h1>
+        
+        <svg width="130" height="55">
+            
+        <circle cx="30" cy="30" r="20" stroke="#f2789f"
+        stroke-width="4" fill="#f9c5d5"/>
+        <text fill="black" font-size="13" font-family="Times" x="15" y="38">UBU</text>
+        </svg>
+        </header>
+          
+        <nav>
+            <ul>
+              <li><a href="#ballina">Ballina</a>
+              <li><a href="#Bimet">Bimet</a>
+              <li><a href="#Kontakti">Kontakti</a>
+            </ul>
+        </nav>
+<section id="Bimet">
+	<div style="background-color: #f999b7; width:100%; height:100%; padding-bottom:3%;">
+		<table>
+			<h2 style=" background-color:#fee3ec; color:black; padding: 2%; text-align: left; font-size: 36px; font-family: 'Times New Roman', Times, serif; ">Shpesh &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Rrallë  </h2>
+            <hr>
+			<tr style="height: 45%">
+				<td>
+					<img src="Foto/lulevjollcee.jpg" alt="Photo 1">
+				</td>
+				<td>
+					<p style="margin-left:-17%; margin-top:17%;"><b>Lule Vjollce-</b>Është llojë i lules që <br> duhet 
+					të ujitet shpesh për
+					shkak se <br> në rrënje është më
+					e thatë është <br> lule afrikane dhe përdoret<br>
+					në shumë mënyra. </p>
+				</td>
+				<td>
+					<img src="Foto/orkide.jpg" alt="Photo 2">
+				</td>
+				<td>
+					<p style="margin-left:-17%; margin-top:17%;"><b>Lule Orkide-</b>Është llojë i lules që <br> 
+					ujitet rrallë por kur ujitet duhet 
+					të ujitet <br> me ujë në temperaturë të ambinetit <br>
+					është bimë e cila pëlqehet shumë </p>
+				</td>
+			</tr>
+       
+			<tr style="height:45%;">
+				<td>
+					<img src="Foto/lulekaranfili.jpg" alt="Photo 3">
+				</td>
+				<td>
+					<p style="margin-left:-17%; margin-top:17%;"><b>Lule Kranfil-</b>Është llojë i lules që <br> duhet të ujitet shpesh
+					për shkak që <br> ka një rrënjë shumë të thatë
+					po ashtu <br>duhet të kenë shumë dritë dhe <br>
+					ka perfitime shendëtsore.</p>
+				</td>
+				<td>
+					<img src="Foto/aloevera.jpg" alt="Photo 4">
+				</td>
+				<td>
+                <p style="margin-left:-17%; margin-top:17%;"><b>Lule Aloevera-</b>Është llojë i lules që <br>
+				ujitet rrallë për shkak që të kjo lule <br>duhet të lihet të
+				thahet mirë dheu saj<br>po ashtu aloevera përdoret shumë<br> 
+				edhe në mjeksi.
+				</p>
+				</td>
+			</tr>
+
+		</table>
+	</div>        
+</section>
+
+<aside style="margin-top: 2%;">  
+    <button style="margin-left: 23.6%;"  onclick="playPause()">Play/Pause</button> 
+		<video id="videomp4" width="560" height="315" style="margin-left:3% ;" > 
+			<source src="Video/Bimet.mp4" type="video/mp4">
+        </video>
+		<p id="demo">
+		</p>
+</aside>
+
+<aside style="margin-bottom: 3%; margin-top: 3%;">   
+    <iframe width="560" height="315" style="margin-left:31.5% ;" src="https://www.youtube.com/embed/bAAdkDLGz0M?si=jLnKBSla7eJumZ0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>     
+</aside>
+
+<script>
+    var myVideo = document.getElementById("videomp4"); 
+            function playPause() { 
+                        if (myVideo.paused) 
+                             myVideo.play(); 
+                        else 
+                             myVideo.pause(); 
+}                    
+</script>
+
+
+<section id="Kontakti">
+    <table>
+        <tr>
+            <td style="width:90%; color: black;">
+                <form action="#" method="post" style="margin-left:13%; margin-top:0;">
+					<h4 style="margin: 0px; width: 50%; height: 50%;"> Kontakti</h4>
+						<hr>
+							<input type="text" name="Subjekti" placeholder="Subjekti" style="margin: 0px; width: 70%; height: 70%;">
+							<br>
+							<br>
+							<input type="text" name="Subjekti" placeholder="Email" style="margin: 0px; width: 70%; height: 70%;">
+							<br>
+							<br>	  
+						<p>	<input id="message" name="message" placeholder="Mesazhi"  style="margin:0; width: 70%; height: 70%;">
+							<input type="submit" name="add" value="Dergo">
+						</p>
+							<br>
+							<br>
+							
+							<audio controls style="width:40%; margin-left: 20%; margin-top:16%;">
+								<source src="Audio/Audio.mp3" type="audio/mpeg">
+							</audio>				
+				</form> 
+			</td>
+			<td>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11779.319784636475!2d21.43375011439861!3d42.43135445023272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13548cbd3fec0533%3A0x439a8c0845c796ae!2zTGl2b8OnIGkgUG9zaHTDq20!5e0!3m2!1sen!2s!4v1715535650847!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+			</td>
+	</table>
+</section>
+
+            
+<footer>
+    <h4 style="padding-bottom:3%;">Copyright &#169 2024 Artiola Hajdari UKZ Gjilan</h4>
+		<p>Referencat:  
+			<a href="https://www.google.com/imgres?q=lule%20jorgovani&imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D2814801621938833&imgrefurl=https%3A%2F%2Fwww.facebook.com%2Fvlera1854%2Fposts%2Flule-jorgovani%2F2814801691938826%2F&docid=D8pMvWWEz7voSM&tbnid=5KCR3Fiex8brJM&vet=12ahUKEwjCl-7Y14qGAxUUXvEDHRHUD_wQM3oECGsQAA..i&w=720&h=478&hcb=2&ved=2ahUKEwjCl-7Y14qGAxUUXvEDHRHUD_wQM3oECGsQAA">Lule Vjollce </a> -
+			<a href="https://www.google.com/imgres?q=karanfil&imgurl=https%3A%2F%2Fimage.dnevnik.hr%2Fmedia%2Fimages%2F996x562%2FMar2023%2F62495499-karanfili.jpg&imgrefurl=https%3A%2F%2Fzadovoljna.dnevnik.hr%2Fclanak%2Fkaranfil-cvijet-duge-povijesti-i-bogate-simbolike---552104.html&docid=atoMGMOWJuCCtM&tbnid=_gMmOFDkAgKL3M&vet=12ahUKEwir0o2k2IqGAxXqVfEDHQ8KB-gQM3oECGIQAA..i&w=996&h=562&hcb=2&ved=2ahUKEwir0o2k2IqGAxXqVfEDHQ8KB-gQM3oECGIQAA">Lule Karanfil</a> -
+			<a href="https://www.google.com/imgres?q=mavi%20orkide&imgurl=https%3A%2F%2Fcdn.ikost.com%2F3090%2Furunler%2F1125.jpg&imgrefurl=https%3A%2F%2Fwww.rosebox.com.tr%2Fwonder-pembe-mavi-2-dalli-orkide%2F&docid=_mmOANlnomcKaM&tbnid=8Msp7vmpc8hSRM&vet=12ahUKEwihz8Pv2IqGAxXoRvEDHRftBvMQM3oECHsQAA..i&w=1600&h=1760&hcb=2&ved=2ahUKEwihz8Pv2IqGAxXoRvEDHRftBvMQM3oECHsQAA">Lule Orkidea</a> -
+			<a href="https://www.google.com/imgres?q=aloevera%20foto&imgurl=https%3A%2F%2Fwww.ikea.com%2Fgb%2Fen%2Fimages%2Fproducts%2Faloe-vera-potted-plant-aloe__0653978_pe708207_s5.jpg&imgrefurl=https%3A%2F%2Fwww.ikea.com%2Fgb%2Fen%2Fp%2Faloe-vera-potted-plant-aloe-70276651%2F&docid=SK984pjd42JO8M&tbnid=KrxL3rA0n3RPIM&vet=12ahUKEwii1JeB14qGAxWzQPEDHQ4TAvgQM3oECGQQAA..i&w=1400&h=1400&hcb=2&ved=2ahUKEwii1JeB14qGAxWzQPEDHQ4TAvgQM3oECGQQAA">Aloe Vera </a> -
+			<a href="https://www.youtube.com/watch?v=8eL1prYyRBM">Video e pare</a> -
+			<a href="https://www.youtube.com/watch?v=bAAdkDLGz0M">Video e dyte</a>               
+		</p>
+</footer>
+</body>
+</html>
